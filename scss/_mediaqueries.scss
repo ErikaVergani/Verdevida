@@ -1,0 +1,6 @@
+@include responsive(mobile) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

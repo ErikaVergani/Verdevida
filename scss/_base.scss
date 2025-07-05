@@ -1,0 +1,14 @@
+body {
+  body {
+  font-family: $font-family;
+}
+
+  font-size: 16px;
+  color: #333;
+  background-color: $secondary-color;
+}
+@use 'variables';
+
+body {
+  font-family: variables.$font-family;
+}
