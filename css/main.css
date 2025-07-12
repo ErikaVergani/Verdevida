@@ -7,3 +7,10 @@ body {
   margin-bottom: 1em;
   border-bottom: 2px solid black;
 }
+img {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+}
