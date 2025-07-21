@@ -2,14 +2,16 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Receta| VerdeVida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recetas | VerdeVida</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
 </head>
 <body>
   <header class="bg-success text-white p-3">
-    <h1 class="text-center">VerdeVida</h1>
+    <img src="../img/Verdevida.png" alt="Logo VerdeVida" style="max-width: 100px;" class="animate__animated animate__bounce animate__delay-1s animate__repeat-2" />
     <nav class="nav justify-content-center">
       <a class="nav-link text-white" href="../index.html">Inicio</a>
       <a class="nav-link text-white" href="beneficios.html">Beneficios</a>
@@ -19,11 +21,45 @@
   </header>
 
   <main class="container py-5">
-    <h2>Descubre recetas innovadoras y deliciosas para una alimentación basada en plantas</h2>
-    <p>Mejor salud, menor impacto ambiental y respeto por los animales.</p>
+    <h2 class="text-center mb-5 animate__animated animate__fadeInDown">Recetas fáciles y nutritivas</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/receta1.jpg" class="card-img-top" alt="Ensalada de quinoa" />
+          <div class="card-body">
+            <h5 class="card-title">Ensalada de quinoa</h5>
+            <p class="card-text">Una ensalada fresca y saludable con quinoa, verduras y aderezo cítrico.</p>
+            <a href="#" class="btn btn-success">Ver receta</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/receta2.jpg" class="card-img-top" alt="Tacos vegetarianos" />
+          <div class="card-body">
+            <h5 class="card-title">Tacos vegetarianos</h5>
+            <p class="card-text">Tacos con relleno de frijoles, aguacate y verduras frescas.</p>
+            <a href="#" class="btn btn-success">Ver receta</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/receta3.jpg" class="card-img-top" alt="Smoothie verde" />
+          <div class="card-body">
+            <h5 class="card-title">Smoothie verde</h5>
+            <p class="card-text">Batido nutritivo con espinaca, plátano y leche vegetal.</p>
+            <a href="#" class="btn btn-success">Ver receta</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
-  <footer class="bg-dark text-white text-center p-3">
+  <footer class="bg-dark text-white text-center p-3 mt-5">
     <p>&copy; 2025 VerdeVida</p>
   </footer>
 </body>
