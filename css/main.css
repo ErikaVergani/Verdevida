@@ -14,3 +14,18 @@ img {
     display: block;
     margin: 0 auto; 
 }
+.linea {
+    border: none;
+    border-top: 2px solid #218838;
+    width: 100px;
+    margin: 0;
+}
+
+.redes-sociales a {
+    color: #218838;
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #155724;
+}
