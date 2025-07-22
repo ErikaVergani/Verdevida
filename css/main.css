@@ -4,7 +4,7 @@
 body {
     font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
         "Droid Sans Mono", monospace, monospace;
-    white-space: pre;
+    white-space: normal;
     display: block;
     padding: 1em;
     margin-bottom: 1em;
