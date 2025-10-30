@@ -7,44 +7,61 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="/Verdevida/img/faviverdevida.png" type="image/png">
+    <link rel="icon" href="/Verdevida/img/faviverdevida.png" type="image/png" sizes="32x32">
+</head>
 
-  </head>
 <body>
   <header class="bg-success text-white p-3">
-  <p class="animate__animated animate__fadeIn animate__delay-2s">Tu guía para una vida más saludable y sostenible</p>
-  <img src="img/Verdevida.png" alt="Logo VerdeVida" class="animate__animated animate__bounce animate__delay-1s animate__repeat-2">
-  <nav class="nav justify-content-center">
-    <a class="nav-link text-white" href="index.html">Inicio</a>
-    <a class="nav-link text-white" href="pages/beneficios.html">Beneficios</a>
-    <a class="nav-link text-white" href="pages/recetas.html">Recetas</a>
-    <a class="nav-link text-white" href="pages/contacto.html">Contacto</a>
-  </nav>
-</header>
-<main class="container py-5 text-center">
-  <h2 class="animate__animated animate__fadeInDown">Bienvenid@ al mundo vegetal</h2>
-  <p class="animate__animated animate__fadeIn animate__delay-1s">Explorá los beneficios del vegetarianismo y veganismo, y accedé a recetas fáciles y nutritivas.</p>
-  <img src="img/vegan.jpg" alt="Vegetales sobre mesa" class="img-fluid rounded shadow mt-4 animate__animated animate__zoomIn animate__delay-2s">
-<main class="container py-5">
-  <h2 class="text-center my-4">Alimentarnos con amor, vivir con conciencia</h2>
+    <img src="/Verdevida/img/Verdevida.png" alt="Logo VerdeVida"
+         class="animate__animated animate__bounce animate__delay-1s animate__repeat-2"
+         style="max-width: 100px;" />
+    <nav class="nav justify-content-center">
+      <a class="nav-link text-white" href="/Verdevida/index.html">Inicio</a>
+      <a class="nav-link text-white" href="/Verdevida/pages/beneficios.html">Beneficios</a>
+      <a class="nav-link text-white" href="/Verdevida/pages/recetas.html">Recetas</a>
+      <a class="nav-link text-white" href="/Verdevida/pages/contacto.html">Contacto</a>
+    </nav>
+  </header>
 
-  <p class="lead text-center">
-    En VerdeVida creemos que las pequeñas decisiones diarias pueden transformar tu bienestar y también el mundo que habitamos. Alimentarse bien no es solo una cuestión de salud, sino un acto de empatía hacia uno mismo, hacia los demás y hacia el planeta.
-  </p>
+  <main class="container py-5">
+    <h2 class="text-center my-4">Alimentarnos con amor, vivir con conciencia</h2>
 
-  <p class="text-center my-4">
-    Cada receta, cada hábito que elegimos cultivar con conciencia, es una forma de cuidarnos y de cuidar. Te invitamos a nutrirte de alimentos frescos, de gestos amables y de momentos que te hagan bien.
-  </p>
+    <p class="lead text-center">
+      En VerdeVida creemos que las pequeñas decisiones diarias pueden transformar tu bienestar y también el mundo que habitamos. Alimentarse bien no es solo una cuestión de salud, sino un acto de empatía hacia uno mismo, hacia los demás y hacia el planeta.
+    </p>
+    <p class="text-center my-4">
+      Cada receta, cada hábito que elegimos cultivar con conciencia, es una forma de cuidarnos y de cuidar. Te invitamos a nutrirte de alimentos frescos, de gestos amables y de momentos que te hagan bien.
+    </p>
 
-  <p class="text-center">
-    Que tu plato sea color, energía y amor. Y que tu vida refleje ese mismo cuidado.
-  </p>
+    <p class="text-center">
+      Que tu plato sea color, energía y amor. Y que tu vida refleje ese mismo cuidado.
+    </p>
 
-  <h4 class="text-center my-5">Comenzá hoy a crear tu bienestar, paso a paso, bocado a bocado 🍃</h4>
-  <div class="text-center my-5">
-  <img src="/Verdevida/img/platovegano.png" alt="Plato saludable con frutas y verduras frescas" class="img-fluid rounded" style="max-width: 400px;">
-</div>
-</main>
+    <h4 class="text-center my-5">Comenzá hoy a crear tu bienestar, paso a paso, bocado a bocado 🍃</h4>
+    <section class="texte-center my-5">
+      <h3> Tu prósito verde del día </h3>
+      <p> Escribí una pequeña acción sustentable o saludable que quieras cumplir hoy.</p>
+      <form id="propositoForm"class="d-flex justify-conten-center-mt-3">
+      <input type="text" id="propositoInput"class="form-control " placeholder="Tu propósito verde..." required>
+        <textarea class="form-control mb-3" rows="3" placeholder="Ejemplo: Comer una fruta fresca, reducir el uso de plástico, caminar 30 minutos..."></textarea>
+        <button type="submit" class="btn btn-success">Guardar propósito</button>
+    </form>
+
+    <div id="propositosList" class="alert alert-success mt-3 d-none" role="alert">
+      ¡Propósito guardado!></div>
+
+    <div class="text-center my-5">
+      <img src="/Verdevida/img/inicio-bienestar.jpg" alt="Plato saludable con frutas y verduras frescas"
+           class="img-fluid rounded" style="max-width: 400px;">
+    </div>
+  </main>
+
   <footer class="bg-dark text-white text-center p-3 mt-5">
     <p>&copy; 2025 VerdeVida</p>
-  </footer>
+   </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
